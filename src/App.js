@@ -8,16 +8,24 @@ import HandleEvent from "./HandleEvent/HandleEvent";
 import DemoState from "./DemoState/DemoState";
 import BaiTapChonXe from "./DemoState/BaiTapChonXe";
 import RenderWithMap from "./RenderWithMap/RenderWithMap";
+import BaiTapRenderPhim from "./RenderWithMap/BaiTapRenderPhim";
+import DemoProps from "./Props/DemoProps";
+import ProductRFC from "./Props/ProductRFC";
+import ProductListRCC from "./Props/ProductListRCC";
 function App() {
     return <div className="App">
-       {/* <DataBinding/> */}
-       {/* <DataBindingClassComponent/> */}
-       {/* <HandleEvent/> */}
-       {/* <DemoState/> */}
-       {/* <BaiTapChonXe/> */}
-       <RenderWithMap/>
+        {/* <DataBinding/> */}
+        {/* <DataBindingClassComponent/> */}
+        {/* <HandleEvent/> */}
+        {/* <DemoState/> */}
+        {/* <BaiTapChonXe/> */}
+        {/* <RenderWithMap/> */}
+        {/* <BaiTapRenderPhim/> */}
+        {/* <DemoProps/> */}
+        <ProductListRCC />
 
- </div>;
+
+    </div>;
 }
 
 export default App;

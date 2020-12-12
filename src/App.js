@@ -12,6 +12,9 @@ import BaiTapRenderPhim from "./RenderWithMap/BaiTapRenderPhim";
 import DemoProps from "./Props/DemoProps";
 import ProductRFC from "./Props/ProductRFC";
 import ProductListRCC from "./Props/ProductListRCC";
+import PropsWithEvent from "./Props/PropsWithEvent";
+import BaiTapGioHangRedux from "./BaiTapRedux/BaiTapGioHangRedux";
+import BaiTapGameXucXac from "./BaiTapRedux/BaiTapGameXucXac/BaiTapGameXucXac";
 function App() {
     return <div className="App">
         {/* <DataBinding/> */}
@@ -22,7 +25,11 @@ function App() {
         {/* <RenderWithMap/> */}
         {/* <BaiTapRenderPhim/> */}
         {/* <DemoProps/> */}
-        <ProductListRCC />
+        {/* <ProductListRCC /> */}
+        {/* <PropsWithEvent/> */}
+        {/* <BaiTapGioHangRedux/> */}
+        <BaiTapGameXucXac/>
+        
 
 
     </div>;

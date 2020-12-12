@@ -1,0 +1,15 @@
+@font-face{
+    font-family: fontGame;
+    src: url('../../assets/imgGame/Pony.ttf');
+}
+
+.bgGame{
+    /* Lưu ý link đén hình ảnh từ file scss hoặc css thì link tại file này ra đến nơi chứa hình ảnh */
+    background-image: url('../../assets/imgGame/bgGame.png');
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    font-family: fontGame;
+}

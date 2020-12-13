@@ -15,6 +15,8 @@ import ProductListRCC from "./Props/ProductListRCC";
 import PropsWithEvent from "./Props/PropsWithEvent";
 import BaiTapGioHangRedux from "./BaiTapRedux/BaiTapGioHangRedux";
 import BaiTapGameXucXac from "./BaiTapRedux/BaiTapGameXucXac/BaiTapGameXucXac";
+import BaiTapQuanLySinhVien from "./Form/BaiTapQuanLySinhVien";
+import ReactLiveCircle from "./ReactLiveCircle/ReactLiveCircle";
 function App() {
     return <div className="App">
         {/* <DataBinding/> */}
@@ -28,8 +30,10 @@ function App() {
         {/* <ProductListRCC /> */}
         {/* <PropsWithEvent/> */}
         {/* <BaiTapGioHangRedux/> */}
-        <BaiTapGameXucXac/>
-        
+        {/* <BaiTapGameXucXac/> */}
+        <BaiTapQuanLySinhVien />
+        {/* <ReactLiveCircle/> */}
+
 
 
     </div>;
